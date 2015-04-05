@@ -10,7 +10,11 @@ namespace BingCopy
     {
         static void Main(string[] args)
         {
-            
+            var bing = new BingWallpaperCopy();
+            bing.Start();
+
+            var robocopy = new RoboCopy();
+            robocopy.Start();
         }
     }
 }
